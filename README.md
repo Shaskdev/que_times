@@ -1,3 +1,7 @@
+### Using the wow API to track and trend rating change in World of Warcraft. Eventually to build up a dataset large enough to be able to track a players "playing time" as in what time of day are they queing the most as well as to trend are there better times to que to see positive rating change in your region. This is the end goal but is far from implementation at this point. v0.1.
+
+
+
 Runnable commands in current build 
 
   Commands you can run:
