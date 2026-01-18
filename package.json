@@ -4,15 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "track": "npx tsx tracker.ts",
+    "track:once": "npx tsx tracker.ts --once",
+    "stats": "npx tsx tracker.ts --stats"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^25.0.9",
+    "better-sqlite3": "^12.6.2",
     "dotenv": "^17.2.3",
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }
